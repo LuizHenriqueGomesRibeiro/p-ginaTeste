@@ -36,9 +36,13 @@ header div.entrar{
     text-align: center;
     padding-top: 9px;
 }
-header div.entrar a{
+a{
     text-decoration: none;
+}
+.entrar h2{
+    text-align: center;
     color: black;
+    margin: -13px 0px 0px 0px;
 }
 header div.entrar:hover{
     background-color: rgb(194, 143, 143);
@@ -58,7 +62,7 @@ div.imagem{
 div.escrita{
     background-color: rgba(0, 0, 0, 0.274);
     height: 590px;
-    width: 340px;
+    width: 300px;
     margin: auto;
     position: absolute;
     top: 50%;
