@@ -5,6 +5,7 @@
 }
 html{
     background-color: gray;
+    overflow-x: hidden;
 }
 body{
     background-color: white;
@@ -12,14 +13,14 @@ body{
     width: 100vw;
 }
 header{
-    height: 90px;
+    height: 115px;
 }
 header div.titulo{
     padding: 12px;
 }
 header div.logo{
     float: right;
-    margin: -66px 13px 0px 0px;
+    margin: -66px 23px 0px 0px;
 }
 header div.entrar{
     height: 30px;
@@ -34,5 +35,11 @@ header div.entrar a{
 header div.entrar:hover{
     background-color: rgb(194, 143, 143);
     cursor: pointer;
+}
+
+div.imagem{
+    background-image: url(../imagens/imagem\ de\ fundo-tablet.jpg);
+    background-position: ;
+    height: 550px;
 }
 
