@@ -37,9 +37,12 @@ header div.entrar:hover{
     cursor: pointer;
 }
 
+
 div.imagem{
-    background-image: url(../imagens/imagem\ de\ fundo-tablet.jpg);
-    background-position: ;
-    height: 550px;
+    background-image: url(../imagens/imagem\ de\ fundo-celular.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: cover;
 }
 
