@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style2.css">
+    <style type="text/css">
+        :root{
+            --cor0: white;
+            --cor1: #213435;
+            --cor2: #46685b;
+            --cor3: #648a64;
+            --cor4: #a6b985;
+            --cor5: #e1e3ac;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        html,body{
+            background-color: var(--cor4);
+            overflow-x: hidden;
+            width: 100vw;
+            height: 100vw;
+        }
+        header{
+            background-color: var(--cor0);
+        }
+        header div{
+            width: 80%;
+            margin: auto;
+        }
+        .titulo{
+            height: 90px;
+        }
+        h1{
+            padding: 20px 0px 0px 20px;
+            font-family: 'Arial',sans-serif;
+            font-size: 30px;
+        }
+        p{
+            font-family: 'Bebas Neue';
+            font-weight: lighter;
+            font-size: 12px;
+            padding: 0px 0px 0px 20px;
+            color: #648a64;
+        }
+        .entrar{
+            float: right;
+            margin: -56px -640px 0px 0px;;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: 600;
+            box-sizing: inherit;
+            padding: 14px;
+        }
+        a:hover{
+            transition: transform 0.3s;
+            color: var(--cor4);
+        }
+        .imagens{
+            background-image: url(imagens/imagem de fundo.jpg);
+            width: 100%;
+            height: 66%;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .serviços{
+            background-color: rgba(128, 128, 128, 0.822);
+            transform: translate(0%,15%);
+            margin: auto;
+            height: 650px;
+            width: 700px;
+            border-radius: 50px 0px 50px 0px;
+            padding: 5px 13px 40px 20px;
+        }
+        .serviços p{
+            color: black;
+            padding: 5px;
+            text-align: justify;
+            margin: 10px;
+        }
+        .macro{
+            width: 100%;
+            height: 80px;
+            background-color: var(--cor2);
+        }
+        .opções{
+            width: 720px;
+            background-color: var(--cor2);
+            height: 80px;
+            margin: auto;
+        }
+        .opções div{
+            display: inline-block;
+            text-align: center;
+            width: 50px;
+            padding: 0px 0px 0px 0px;
+            margin: 29px 60px 0px 75px;
+        }
+        .usuario{
+            text-align: center;
+        }
+        .serviços p{
+            font-size: 1.8em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <div class="titulo">
+                <h1>PADRÃO</h1>
+                <p>Medicina especializada</p>
+            </div>
+        </div>
+    </header>
+    <body>
+        <div class="imagens">
+            <div class="serviços">
+                    <p>Cadastro de usuário</p>
+                    <div class="usuario">
+                        <a href="inserir_usuario.html">Adicionar</a><a href="pesquisar_usuario.html">Alterar/excluir</a>
+                    </div>
+            </div>
+        </div>
+        <div class="macro">
+            <div class="opções">
+                <div><a href="#">Contato</a></div>
+                <div><a href="#">Exames</a></div>
+                <div><a href="#">Serviços</a></div>
+            </div>
+        </div>
+    </body>
+</html>
