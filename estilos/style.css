@@ -36,7 +36,9 @@ header div.entrar:hover{
     background-color: rgb(194, 143, 143);
     cursor: pointer;
 }
-
+main{
+    height: 100vh;
+}
 
 div.imagem{
     background-image: url(../imagens/imagem\ de\ fundo-celular.jpg);
