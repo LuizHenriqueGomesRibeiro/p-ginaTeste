@@ -1,0 +1,78 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    background-color: gray;
+    overflow-x: hidden;
+}
+body{
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    height: 124px;
+}
+div.bloco{
+    width: 90%;
+    margin: auto;
+}
+header div.titulo{
+    padding: 10px;
+}
+header div.titulo p{
+    margin: 0px;
+    color: black;
+}
+header div.logo{
+    float: right;
+    margin: -66px 20px 0px 0px;
+}
+header div.entrar{
+    height: 30px;
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 9px;
+}
+a{
+    text-decoration: none;
+}
+.entrar h2{
+    text-align: center;
+    color: black;
+    margin: -13px 0px 0px 0px;
+}
+header div.entrar:hover{
+    background-color: rgb(194, 143, 143);
+    cursor: pointer;
+}
+main{
+    height: 100vh;
+}
+
+div.imagem{
+    background-image: url(../../imagens/imagem\ de\ fundo-celular.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+div.escrita{
+    background-color: rgba(0, 0, 0, 0.274);
+    height: 370px;
+    width: 240px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    padding: 60px;
+    border-radius: 0px 30px 0px 30px;
+}
+div.escrita h1,h2,p{
+    text-align: justify;
+    color:white;
+    padding-top: 10px;
+}

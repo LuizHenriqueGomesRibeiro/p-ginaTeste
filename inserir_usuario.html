@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/estilo menu/style.css">
+    <link rel="stylesheet" href="estilos/estilo menu/computador.css">
+    <link rel="stylesheet" href="estilos/estilo menu/tablet.css">
+</head>
+<body>
+    <header>
+        <div class="bloco">
+            <div class="titulo">
+                <h1>Padrão</h1>
+                <p>clínica geral</p>
+            </div>
+            <div class="logo">
+                <img src="imagens/elephant-g5abe90a52_640.jpg" alt="" height="50px">
+            </div>
+        </div>
+            <a href="menu_usuarios.html">
+                <div class="entrar">
+                    <h2>Entrar</h2>
+                </div>
+            </a>
+    </header>
+    <main>
+        <div class="imagem">
+            <div class="escrita">
+                <form action="inserirUsuario" name="formInsereUsuario" method="post" target="_parent">
+                    <p>Nome do usuário:</p>
+                    <input name="txtUsuario" type="text" maxlength="20" />
+                    
+                    <p>
+                        Senha: <input name="txtSenha" type="password" size="10" maxlength="10" />
+                    </p> 
+                    <p>
+                        <input name="chkAdministrativo" type="checkbox" value="ModuloAdministrativo" />Módulo administrativo
+                    </p> 
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<input name="chkFuncionario" type="checkbox" value="Funcionario" />Cadastro de funcionários
+                    </p> 
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<input name="chkUsuario" type="checkbox" value="Usuario"/>Cadastro de usuários
+                    </p> 
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<input name="chkEspecialidade" type="checkbox" value="Especialidade" />Cadastro de especialidades
+                    </p> 
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<input name="chkMedico" type="checkbox" value="Medico"/>Cadastro de médicos 
+                    </p> 
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<input name="chkConvenio" type="checkbox"value="Convenio"/>Cadastro de convênios
+                    </p> 
+                    <p>
+                        <input name="chkAgendamento" type="checkbox" value="ModuloAgendamento">Módulo de agendamento
+                    </p> 
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<input name="chkPaciente" type="checkbox" value="Paciente"/>Cadastro de pacientes
+                    </p> 
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<input name="chkAgendarConsulta" type="checkbox" value="AgendarConsulta" />Agendamento de consulta
+                    </p> 
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<inputname="chkCancelarConsulta" type="checkbox" value="CancelarConsulta" />Cancelamento de consulta
+                    </p> 
+                    <p>
+                        <input name="chkAtendimento" type="checkbox"value="ModuloAtendimento" /> Módulo de atendimento médico
+                    </p> 
+                    <p>
+                        <input name="btnGravar" type="submit" value="Gravar" />
+                        <span class="LinkVoltar">
+                            <a href="javascript:history.back()">[Voltar]</a>
+                        </span>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
