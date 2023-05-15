@@ -8,9 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="estilos/estilo menu/style.css">
-    <link rel="stylesheet" href="estilos/estilo menu/computador.css">
-    <link rel="stylesheet" href="estilos/estilo menu/tablet.css">
+    <link rel="stylesheet" href="estilos/estilo inserir_usuario/style.css">
+    <link rel="stylesheet" href="estilos/estilo inserir_usuario/computador.css">
+    <link rel="stylesheet" href="estilos/estilo inserir_usuario/tablet.css">
 </head>
 <body>
     <header>
@@ -25,7 +25,7 @@
         </div>
             <a href="menu_usuarios.html">
                 <div class="entrar">
-                    <h2>Entrar</h2>
+                    <h2>Voltar</h2>
                 </div>
             </a>
     </header>
@@ -33,12 +33,12 @@
         <div class="imagem">
             <div class="escrita">
                 <form action="inserirUsuario" name="formInsereUsuario" method="post" target="_parent">
-                    <p>Nome do usuário:</p>
-                    <input name="txtUsuario" type="text" maxlength="20" />
-                    
-                    <p>
-                        Senha: <input name="txtSenha" type="password" size="10" maxlength="10" />
-                    </p> 
+                    <p>Nome do usuário:</p> 
+                    <input name="txtUsuario" type="text" maxlength="20"/>
+
+                    <p>Senha:</p> 
+                    <input name="txtSenha" type="password" size="10" maxlength="10" />
+                     
                     <p>
                         <input name="chkAdministrativo" type="checkbox" value="ModuloAdministrativo" />Módulo administrativo
                     </p> 
@@ -74,9 +74,6 @@
                     </p> 
                     <p>
                         <input name="btnGravar" type="submit" value="Gravar" />
-                        <span class="LinkVoltar">
-                            <a href="javascript:history.back()">[Voltar]</a>
-                        </span>
                     </p>
                 </form>
             </div>
