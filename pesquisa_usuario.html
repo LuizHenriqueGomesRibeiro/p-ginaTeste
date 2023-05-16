@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="estilos/estilo pesquisa_usuario/style.css">
+        <link rel="stylesheet" href="estilos/estilo pesquisa_usuario/computador.css">
+        <link rel="stylesheet" href="estilos/estilo pesquisa_usuario/tablet.css">
+    </head>
+    <body>
+        <header>
+            <div class="bloco">
+                <div class="titulo">
+                    <h1>Padrão</h1>
+                    <p>clínica geral</p>
+                </div>
+                <div class="logo">
+                    <img src="imagens/elephant-g5abe90a52_640.jpg" alt="" height="50px">
+                </div>
+            </div>
+                <a href="menu_usuarios.html">
+                    <div class="entrar">
+                        <h2>Voltar</h2>
+                    </div>
+                </a>
+        </header>
+        <main>
+            <div class="imagem">
+                <div class="escrita">
+                    <form action="formPesquisaUsuario" name="pesquisaUsuario" method="post" target="_parent">
+                        <p>
+                            Nome do usuário: 
+                        </p>
+                        <input name="txtUsuario" type="text">
+                        <input type="submit" name="btnConfirmar" value="Confirmar">
+                    </form>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

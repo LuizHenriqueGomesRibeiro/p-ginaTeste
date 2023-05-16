@@ -61,11 +61,11 @@ div.imagem{
 }
 div.escrita{
     background-color: rgba(0, 0, 0, 0.274);
-    height: 440px;
-    width: 240px;
+    height: 70px;
+    width: 280px;
     margin: auto;
     position: absolute;
-    top: 52%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-30%);
     padding: 60px;
@@ -76,3 +76,4 @@ div.escrita h1,h2,p{
     color:white;
     padding-top: 10px;
 }
+

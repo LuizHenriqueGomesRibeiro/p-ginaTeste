@@ -61,11 +61,11 @@ div.imagem{
 }
 div.escrita{
     background-color: rgba(0, 0, 0, 0.274);
-    height: 440px;
+    height: 80px;
     width: 240px;
     margin: auto;
     position: absolute;
-    top: 52%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-30%);
     padding: 60px;
@@ -75,4 +75,18 @@ div.escrita h1,h2,p{
     text-align: justify;
     color:white;
     padding-top: 10px;
+}
+div.escrita div.usuario a{
+    margin: 15px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.escrita div.usuario a:hover{
+    color: lightblue;
+}
+div.escrita div.usuario h2{
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 25px;
 }
